@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+}
+section {
+    padding:20%;
+}
+.wrap_subject {
+    font-size: 48px;
+    font-weight: bold;
+}
+.dot_line {
+    border: 1px dotted black;
+}
+.line {
+    border: 1px solid #777777;
+}
+.main_img {
+    display: inline-block;
+}
+
+.wrap_text {
+    display: inline-block;
+    margin-left: 10px;
+}
+.wrap_text__header {
+    overflow: hidden;
+}
+.wrap_text__header__subject {
+    padding-right: 10px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    /*font-family: "Nanum Gothic";*/
+    color: #00f;
+}
+
+.wrap_text__header__star {
+    float: left;
+    display: inline-block;
+    background-image: url("../images/star.png");
+    width:100px;
+    height:24px;
+}
+.wrap_text__header__rate {
+    float: right;
+}
+
+/*
+1. 킹스맨 : 골든 서클 부분 - > 폰트 24픽셀, 폰트 bold, 한 줄 말줄임 처리, 폰트 속성 : 나눔 고딕, 글자 색상 : #00f
+
+2. 별 : 8.62 - > %로 가로값 정의
+
+3. 평점 텍스트 : 폰트 18픽셀, 글자 색상 : #666
+
+3. 본문 텍스트 : 폰트 16픽셀, 글자 색상 : #333, 폰트 속성 : 나눔 고딕
+
+/*
